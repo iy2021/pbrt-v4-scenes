@@ -1,9 +1,9 @@
 Scale -1 1 1
 # Rotate 1 0 0 1 # slight lean left to even out
-Film "rgb"
+Film "gbuffer"
     "string filename" [ "crown.exr" ]
-    "integer yresolution" [ 1400 ]
-    "integer xresolution" [ 1000 ]
+    "integer yresolution" [ 1920 ]
+    "integer xresolution" [ 1080 ]
     "float iso" 150
     "string sensor" "canon_eos_5d_mkiv"
 

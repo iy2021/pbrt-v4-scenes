@@ -13,11 +13,11 @@ Camera "perspective"
     "float shutterclose" [ 1 ]
     "float shutteropen" [ 0 ]
     "float fov" [ 81.2026 ]
-Film "rgb"
+Film "gbuffer"
     "string filename" [ "sanmiguel-balcony-plants.exr" ]
     "float cropwindow" [ 0.025 0.975 0 1 ]
-    "integer yresolution" [ 1066 ]
-    "integer xresolution" [ 1600 ]
+    "integer yresolution" [ 1080 ]
+    "integer xresolution" [ 1920 ]
 Sampler "halton"
     "integer pixelsamples" [ 2048 ]
 Integrator "volpath"

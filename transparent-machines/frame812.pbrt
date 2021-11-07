@@ -5,10 +5,10 @@ ConcatTransform [ 0.282326 0.9337543 -0.21998829 0 -0.6146391 8.326673e-17 -0.78
 Camera "perspective"
     "float fov" [ 15 ]
 # imgtool convert -bloomlevel 1 frame812.exr frame812.png 
-Film "rgb"
+Film "gbuffer"
     "string filename" [ "frame812.exr" ]
     "float maxcomponentvalue" 10
-    "integer yresolution" [ 840 ]
+    "integer yresolution" [ 1080 ]
     "integer xresolution" [ 1920 ]
 Sampler "halton"
     "integer pixelsamples" [ 1024 ]

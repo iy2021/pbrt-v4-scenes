@@ -1,6 +1,6 @@
-Film "rgb"
-    "integer xresolution" [ 1600 ]
-    "integer yresolution" [ 850 ]
+Film "gbuffer"
+    "integer xresolution" [ 1920 ]
+    "integer yresolution" [ 1080 ]
     "string filename" [ "pavilion-night.exr" ]
     "float iso" [ 250 ]
     "float maxcomponentvalue" [ 50 ]

@@ -5,7 +5,7 @@ Camera "perspective"
     "float fov" [ 39.760704 ]
 Sampler "halton"
     "integer pixelsamples" [ 512 ]
-Film "rgb"
+Film "gbuffer"
     "string filename" [ "view-1.exr" ]
     "integer yresolution" [ 1080 ]
     "integer xresolution" [ 1920 ]

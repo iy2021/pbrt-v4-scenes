@@ -1,4 +1,4 @@
-Film "rgb"
+Film "gbuffer"
     "string filename" "head.exr"
     "integer yresolution" [ 1080 ]
     "integer xresolution" [ 1920 ]

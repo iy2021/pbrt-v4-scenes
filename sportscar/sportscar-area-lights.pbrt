@@ -1,6 +1,6 @@
-Film "rgb" "float iso" 200
+Film "gbuffer" "float iso" 200
     "integer xresolution" [ 1920 ]
-    "integer yresolution" [ 900 ]
+    "integer yresolution" [ 1080 ]
     "float maxcomponentvalue" 10
     "string filename" "sportscar-area-lights.exr"
 

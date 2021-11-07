@@ -1,10 +1,10 @@
 Sampler "halton"
     "integer pixelsamples" [ 1024 ]
 PixelFilter "gaussian"
-Film "rgb" "float iso" 400
+Film "gbuffer" "float iso" 400
     "string filename" [ "dragon_50.exr" ]
-    "integer yresolution" [ 1024 ]
-    "integer xresolution" [ 1366 ]
+    "integer yresolution" [ 1080 ]
+    "integer xresolution" [ 1920 ]
 Scale -1 1 1
 LookAt 3.69558 -3.46243 3.25463
     3.04072 -2.85176 2.80939

@@ -1,9 +1,9 @@
 
-Film "rgb"
+Film "gbuffer"
     "float iso" [ 500 ]
     "string filename" [ "pavilion-day.exr" ]
-    "integer yresolution" [ 850 ]
-    "integer xresolution" [ 1600 ]
+    "integer yresolution" [ 1080 ]
+    "integer xresolution" [ 1920 ]
     "float maxcomponentvalue" 50
 Scale -1 1 1
 LookAt -10 2.25 10

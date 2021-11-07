@@ -3,10 +3,10 @@ LookAt 200 250 70
     0 0 1
 Camera "perspective"
     "float fov" [ 38 ]
-Film "rgb"
+Film "gbuffer"
     "string filename" [ "killeroo-gold.exr" ]
-    "integer yresolution" [ 1026 ]
-    "integer xresolution" [ 1368 ]
+    "integer yresolution" [ 1080 ]
+    "integer xresolution" [ 1920 ]
 Sampler "halton"
     "integer pixelsamples" [ 512 ]
 

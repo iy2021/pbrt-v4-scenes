@@ -14,11 +14,11 @@ Camera "perspective"
     "float shutteropen" [ 0 ]
     "float fov" [ 78.5788 ]
 # End Camera Camera01
-Film "rgb"
+Film "gbuffer"
     "string filename" [ "sanmiguel-upstairs.exr" ]
     "float cropwindow" [ 0 0.997245 0.03875 0.725 ]
-    "integer yresolution" [ 1600 ]
-    "integer xresolution" [ 726 ]
+    "integer yresolution" [ 1920 ]
+    "integer xresolution" [ 1080 ]
     "float iso" 1000
 Sampler "halton"
     "integer pixelsamples" [ 2048 ]

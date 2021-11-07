@@ -20,9 +20,9 @@ Camera "realistic"
     "float focusdistance" [ 40 ]
     "float aperturediameter" [ 8.7 ]
 
-Film "rgb"
-    "integer xresolution" [ 1600 ]
-    "integer yresolution" [ 1100 ]
+Film "gbuffer"
+    "integer xresolution" [ 1920 ]
+    "integer yresolution" [ 1080 ]
     "float iso" [ 1300 ]
     "string filename" "sanmiguel-realistic-courtyard.exr"
 Sampler "halton"

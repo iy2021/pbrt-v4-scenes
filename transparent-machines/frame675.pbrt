@@ -4,10 +4,10 @@ Camera "perspective"
     "float focaldistance" [ 2000 ]
     "float fov" [ 4.509713 ]
 # imgtool convert -bloomlevel 1 frame675.exr frame675.png 
-Film "rgb"
+Film "gbuffer"
     "float maxcomponentvalue" 10
     "string filename" [ "frame675.exr" ]
-    "integer yresolution" [ 840 ]
+    "integer yresolution" [ 1080 ]
     "integer xresolution" [ 1920 ]
 Sampler "halton"
     "integer pixelsamples" [ 1024 ]

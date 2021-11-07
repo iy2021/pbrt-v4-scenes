@@ -5,9 +5,9 @@ LookAt 00 120 20       -.5 0 30   0 0 1
 Camera "perspective"
     "float fov" 37
 
-Film "rgb"
-  "integer xresolution" 1300
-  "integer yresolution" 1800
+Film "gbuffer"
+  "integer xresolution" 1080
+  "integer yresolution" 1920
   "string sensor" "nikon_d850"
   "float whitebalance" 6000
   "float iso" 100

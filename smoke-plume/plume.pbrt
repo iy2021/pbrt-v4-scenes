@@ -5,7 +5,9 @@ Sampler "halton" "integer pixelsamples" [1024]
 
 Integrator "volpath"
 
-Film "rgb" "integer xresolution" [1200] "integer yresolution" [1200]
+Film "gbuffer" 
+	  "integer xresolution" [1920] 
+	  "integer yresolution" [1080]
       "string filename" "plume.exr"
       "float maxcomponentvalue" 20
 

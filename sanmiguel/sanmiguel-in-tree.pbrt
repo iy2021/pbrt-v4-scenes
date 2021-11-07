@@ -14,11 +14,11 @@ Camera "perspective"
     "float shutteropen" [ 0 ]
     "float fov" [ 54.4322 ]
 # End Camera Camera15
-Film "rgb"
+Film "gbuffer"
     "string filename" [ "sanmiguel-in-tree.exr" ]
     "float cropwindow" [ 0.01125 0.99875 0.0109091 0.907273 ]
-    "integer yresolution" [ 1100 ]
-    "integer xresolution" [ 1600 ]
+    "integer yresolution" [ 1920 ]
+    "integer xresolution" [ 1080 ]
 Sampler "halton"
     "integer pixelsamples" [ 2048 ]
 Integrator "volpath"

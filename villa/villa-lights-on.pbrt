@@ -7,11 +7,11 @@ LookAt 12.950244 7.380909 3.851503
     0.055187 -0.013328 0.998387
 Camera "perspective"
     "float fov" [ 47 ]
-Film "rgb"
+Film "gbuffer"
     "string filename" [ "villa-lights-on.exr" ]
     "float iso" [ 160 ]
-    "integer yresolution" [ 444 ]
-    "integer xresolution" [ 1000 ]
+    "integer yresolution" [ 1080 ]
+    "integer xresolution" [ 1920 ]
 Sampler "sobol"
     "integer pixelsamples" [ 1024 ]
 

@@ -4,7 +4,7 @@ LookAt 50 40 180
 Camera "perspective"
     "float fov" [ 50 ]
 # imgtool convert -scale 1.5 --bloomlevel 1 dambreak0.exr dambreak0.png
-Film "rgb"
+Film "gbuffer"
     "string filename" [ "dambreak0.exr" ]
     "float maxcomponentvalue" [ 10 ]
     "integer yresolution" [ 1080 ]

@@ -4,11 +4,11 @@ Transform [ -0.999887 0.00390257 0.0145262 -0 -0 0.965755 -0.259457 -0 0.0150413
 Sampler "halton"
     "integer pixelsamples" [ 4096 ]
 
-Film "rgb"
+Film "gbuffer"
     "float iso" [ 400 ]
     "string filename" [ "hair-actual-bsdf.exr" ]
     "integer yresolution" [ 1024 ]
-    "integer xresolution" [ 1024 ]
+    "integer xresolution" [ 1920 ]
     "float maxcomponentvalue" 50
 Camera "perspective"
     "float fov" [ 32 ]

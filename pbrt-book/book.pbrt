@@ -1,6 +1,6 @@
 Sampler "halton"
     "integer pixelsamples" [ 2048 ]
-Film "rgb"
+Film "gbuffer"
     "string filename" [ "book.exr" ]
     "integer yresolution" [ 1080 ]
     "integer xresolution" [ 1920 ]

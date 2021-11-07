@@ -3,7 +3,7 @@ LookAt 50 40 180
     0 1 0
 Camera "perspective"
     "float fov" [ 50 ]
-Film "rgb"
+Film "gbuffer"
     "string filename" [ "dambreak1.exr" ]
     "float maxcomponentvalue" [ 10 ]
     "integer yresolution" [ 1080 ]

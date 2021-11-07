@@ -2,11 +2,11 @@ Integrator "volpath" "integer maxdepth" [100]
 
 Sampler "sobol" "integer pixelsamples" [1024]
 
-Film "rgb" 
-  "integer xresolution" [1280]
-  "integer yresolution" [720]
+Film "gbuffer" 
+  "integer xresolution" [1920]
+  "integer yresolution" [1080]
   "string filename" "disney-cloud-720p.exr"
-  #"integer xresolution" [1998]
+  #"integer xresolution" [1920]
   #"integer yresolution" [1080]
   #"string filename" "disney-cloud-hd.exr"
 

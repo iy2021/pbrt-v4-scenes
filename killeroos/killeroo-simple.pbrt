@@ -7,10 +7,10 @@ Camera "perspective"
 # zoom in by feet
 # "integer xresolution" [1500] "integer yresolution" [1500]
 #	"float cropwindow" [ .34 .49  .67 .8 ]
-Film "rgb"
+Film "gbuffer"
     "string filename" [ "killeroo-simple.exr" ]
-    "integer yresolution" [ 700 ]
-    "integer xresolution" [ 700 ]
+    "integer yresolution" [ 1080 ]
+    "integer xresolution" [ 1920 ]
 Sampler "halton"
     "integer pixelsamples" [ 256 ]
 

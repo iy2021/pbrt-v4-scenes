@@ -15,11 +15,11 @@ Camera "perspective"
     "float fov" [ 83.9744 ]
 #	 "float cropwindow"  [0.01125  0.99875  0.0109091  0.907273]
 # End Camera Camera14
-Film "rgb"
+Film "gbuffer"
     "string filename" [ "sanmiguel-courtyard.exr" ]
     "float cropwindow" [ 0.1 0.8 0.0109091 0.907273 ]
-    "integer yresolution" [ 1100 ]
-    "integer xresolution" [ 1600 ]
+    "integer yresolution" [ 1080 ]
+    "integer xresolution" [ 1920 ]
 Sampler "halton"
     "integer pixelsamples" [ 2048 ]
 Integrator "volpath"
