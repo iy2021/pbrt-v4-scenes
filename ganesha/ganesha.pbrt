@@ -1,10 +1,10 @@
 Sampler "halton"
     "integer pixelsamples" [ 512 ]
 PixelFilter "gaussian"
-Film "rgb"
+Film "gbuffer"
     "string filename" [ "ganesha.exr" ]
-    "integer yresolution" [ 1440 ]
-    "integer xresolution" [ 1440 ]
+    "integer yresolution" [ 1080 ]
+    "integer xresolution" [ 1920 ]
 Scale -1 1 1
 LookAt 328 40.282 245
     328 10 0
