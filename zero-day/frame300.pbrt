@@ -4,8 +4,8 @@ Camera "perspective"
     "float focaldistance" [ 202 ]
     "float fov" [ 22.275333 ]
 
-Film "rgb"
-    "integer yresolution" [ 840 ]
+Film "gbuffer"
+    "integer yresolution" [ 1080 ]
     "integer xresolution" [ 1920 ]
     "string filename" [ "frame300.exr" ]
     "string sensor" "canon_eos_100d"

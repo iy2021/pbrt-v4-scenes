@@ -1,5 +1,5 @@
 
-Film "rgb"
+Film "gbuffer"
     "integer yresolution" [ 1080 ]
     "integer xresolution" [ 1920 ]
     "string filename" [ "bistro_vespa.exr" ]
