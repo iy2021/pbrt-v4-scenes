@@ -10,7 +10,7 @@ Film "gbuffer"
     "string filename" [ "frame25.exr" ]
     "string sensor" "canon_eos_100d"
     "float whitebalance" 5500
-    "float iso" 125
+    "float iso"  125
 
 Sampler "halton"
     "integer pixelsamples" [ 1024 ]
